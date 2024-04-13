@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-..., crossorigin="anonymous" />
+    
+
+
+    <title>the Web Portfolio</title>
+</head>
+<body>
+    <header class="container-lg py-3">
+        <nav class="row">
+            <div class="col-2">
+                <!--the logo of the website -->
+                <img class="logo" src="images/logo1.png" alt="Logo">
+            </div>
+            <div class="col-3 ms-auto">
+                <!-- add hamburger menu code for the hamburger menu -->
+                <input type="checkbox" id="menyAvPaa">
+    <label id="burger" for="menyAvPaa">
+        <div></div>
+        <div></div>
+        <div></div>
+    </label>
+  
+    <ul id="meny">
+      <li><a href="index.html" aria-label="Go to the home Page">Home</a></li>
+      <li itemscope itemtype="https://schema.org/AboutPage"><a href="about.html" aria-label="Go to the about page">About Me</a></li>
+      <li itemscope itemtype="https://schema.org/contactPage"><a href="contact.html" aria-label="Go to the contact page">Contact Me</a></li>
+    </ul>
+    </div>
+    </nav>
+    </header>
+
+    <div class="main container-lg text-white">
+        <div class="row">
+          <h1 class="col-12 text-center">Get in touch with haraanganjot !</h1>
+          <div class="col-md-6">
+            <p>Contact Information:</p>
+            <ul>
+              <li>613-633-3129</li>
+              <li>honeyghumaan01@gmail.com</li>
+            </ul>
+            <div class="para">
+            <p>Follow me on social media!</p>
+          </div>
+            <div class="d-flex">
+              
+                <a href="https://www.facebook.com/hsg01" target="_blank" class="icon"><i class="fab fa-facebook-f"></i></a>
+                <a href="https://twitter.com" target="_blank" class="icon"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.instagram.com/singh_honey.exe/" target="_blank" class="icon"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-md-6">
+          
+            
+            <form class="contact">
+                <div>
+                <label for="name">name</label>
+                <input id="name" name="full-name" type="text">
+            </div>
+            <div>
+                <label for="email">email</label>
+                <input id="email" name="email" type="email">
+            </div>
+            <div>
+                <label for="message">message</label>
+                <textarea name="message" id="message" cols="32" rows="11"></textarea>
+            </div>
+              <button type="submit" class=" btn-primary buttons">Submit</button>
+            </form>
+          </div>
+        </div>
+
+      </div>
+         
+      <footer class="text-white">Copyright ©Haraanganjot Singh 2024</footer>
+
+</body>
+</html>
